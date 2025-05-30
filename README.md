@@ -37,7 +37,7 @@ openssl.cafile = "C:\wamp64\bin\php\cacert.pem"
  - Click “Restart All Services”.
 
 ## Step 5 : Steps to Create Firebase Project JSON File for Push Notifications
- - Step 1: Go to Firebase Console
+ - ✅ Step 1: Go to Firebase Console
     - Visit: https://console.firebase.google.com
     - Sign in with your Google account.
 
@@ -59,10 +59,10 @@ openssl.cafile = "C:\wamp64\bin\php\cacert.pem"
     - Confirm the prompt — the .json file will be downloaded.
     - This file contains your Firebase credentials — store it securely and do not commit it to source control (like GitHub).
  - ✅ Step 5: Locate this json file in following path of your project
-    - storage app/firebase/firebase_file.json
-    
-## Step 6
- - Create Services Folder in following path of your laravel project.
+    - storage/app/firebase/firebase_file.json
+
+## Step 6: Create Services Folder in following path of your laravel project.
+
     ```bash
         App/Services
     ```
@@ -106,4 +106,6 @@ openssl.cafile = "C:\wamp64\bin\php\cacert.pem"
     }
 
  ```
+
+## Step 7: Check the notification to the device of device token is provided.
     
