@@ -37,28 +37,28 @@ openssl.cafile = "C:\wamp64\bin\php\cacert.pem"
  - Click “Restart All Services”.
 
 ## Step 5 : Steps to Create Firebase Project JSON File for Push Notifications
- - ✅ Step 1: Go to Firebase Console
+ - ✅ **Go to Firebase Console**
     - Visit: https://console.firebase.google.com
     - Sign in with your Google account.
 
- - ✅ Step 2: Create a Firebase Project
+ - ✅ **Create a Firebase Project**
     - Click "Add project".
     - Enter a project name, and click Continue.
     - Disable or enable Google Analytics as needed.
     - Click Create Project.
 
- - ✅ Step 3: Enable Firebase Cloud Messaging (FCM)
+ - ✅ **Enable Firebase Cloud Messaging (FCM)**
     - After creating the project, go to the Project Overview.
     - In the left menu, click Build > Cloud Messaging.
     - Make sure Cloud Messaging is enabled.
 
- - ✅ Step 4: Create a Service Account Key (JSON File)
+ - ✅ **Create a Service Account Key (JSON File)**
     - In the left menu, go to Project Settings (click the gear icon).
     - Click the "Service Accounts" tab.
     - Click "Generate new private key".
     - Confirm the prompt — the .json file will be downloaded.
     - This file contains your Firebase credentials — store it securely and do not commit it to source control (like GitHub).
- - ✅ Step 5: Locate this json file in following path of your project
+ - ✅ **Locate this json file in following path of your project**
     - storage/app/firebase/firebase_file.json
 
 ## Step 6: Create Services Folder in following path of your laravel project.
