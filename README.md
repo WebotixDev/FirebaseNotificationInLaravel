@@ -62,10 +62,9 @@ openssl.cafile = "C:\wamp64\bin\php\cacert.pem"
     - storage/app/firebase/firebase_file.json
 
 ## Step 6: Create Services Folder in following path of your laravel project.
-
-    ```bash
-        App/Services
-    ```
+```bash
+    App/Services
+```
  - Copy the FirebaseService.php file into this folder
  - Your post notification function use into the controller like this 
 
