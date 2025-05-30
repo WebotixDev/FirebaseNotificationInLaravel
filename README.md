@@ -67,7 +67,7 @@ openssl.cafile = "C:\wamp64\bin\php\cacert.pem"
         App/Services
     ```
  - Copy the FirebaseService.php file into this folder
- - your post notification function use into the controller like this 
+ - Your post notification function use into the controller like this 
 
  ```bash
     use App\Services\FirebaseService;
