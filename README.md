@@ -106,5 +106,5 @@ openssl.cafile = "C:\wamp64\bin\php\cacert.pem"
 
  ```
 
-## Step 7: Check the notification to the device of device token is provided.
+## Step 7: Verify that the device with the provided token receives the notification.
     
